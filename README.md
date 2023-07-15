@@ -5,7 +5,7 @@ Rerpositorio com fins de de resolução da  tarefa do modulo 2 da recode. :bookm
 Utilizando conceitos de programação estruturada (Vetorial), crie um menu em pseudocódigo para simular um cadastro para uma agência de viagens com as seguintes funções: cadastro de cliente e cadastro de destino, crie também uma consulta para cada estrutura de dados.
 
 requisitos
-- [] Use conceitos de estrutura vetorial
+- [x] Use conceitos de estrutura vetorial
 - [] Menu de simulação de registro
 - [] Função cadastra cliente
 - [] Registrar destino
