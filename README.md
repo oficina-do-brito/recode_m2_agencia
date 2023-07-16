@@ -7,8 +7,8 @@ Utilizando conceitos de programação estruturada (Vetorial), crie um menu em ps
 requisitos
 - [x] Use conceitos de estrutura vetorial
 - [] Menu de simulação de registro
-- [] Função cadastra cliente
-- [] Registrar destino
+- [x] Função cadastra cliente
+- [x] Registrar destino
 - [] Criar consulta para cada uma das estruturas de dados
 ## módulo 2 problema 2
 Criar o protótipo de uma primeira versão de um site para uma agência de viagens.
