@@ -1,8 +1,4 @@
 Algoritmo "agency"
-//
-//
-//
-//
 // @Descricaoo   : Esse programa tem o objetivo de simular o cadastramento, de
 // clientes e seu respectivo destino, em uma agencia de viagens.
 // @Autor(a)    : Clodoaldo Neto
@@ -13,7 +9,7 @@ Var
 
    clientes:vetor[1..50] de caractere
    destinos:vetor[1..50] de caractere
-
+   search:caractere
    i,opt,apontador_cliente,apontador_destino:inteiro
 
    //@Procedimentos
@@ -27,27 +23,44 @@ fimprocedimento
 procedimento printBannerScreen
 inicio
    escreval(" ##############################################")
-   escreval(" ##############################################")
-   escreval(" ###                                        ###")
    escreval(" ###                                        ###")
    escreval(" ###            travel agency               ###")
    escreval(" ###                                        ###")
-   escreval(" ###                                        ###")
-   escreval(" ##############################################")
    escreval(" ##############################################")
    doisEspacos()
 fimprocedimento
 
-//@Funcao
+procedimento consultar(help:caracter)
+var i: inteiro
+inicio
+
+   se (help = "clientes") entao
+      para i de 1 ate apontador_cliente faca
+         escreva(", ",clientes[i])
+      fimpara
+   senao
+      para i de 1 ate apontador_destino faca
+         escreva(", ",destinos[i])
+      fimpara
+   fimse
+   doisEspacos()
+fimprocedimento
+
+
+//@Funcoes
 
 funcao menuOpcao():inteiro
 var opcao:inteiro
 inicio
    escreval("Digite 1 para cadastrar um novo cliente;")
    escreval("Digite 2 para cadastrar o seu destino;")
+   escreval("Digite 3 para consultar 1 Cliente;")
+   escreval("Digite 4 para consultar 1 Destino;")
+   escreval("Digite 5 para consultar todos os Clientes;")
+   escreval("Digite 6 para consultar todos os Destinos;")
    escreval("Digite 0 para sair;")
    doisEspacos()
-   escreva("escolha uma opcao entre as listadas acima: ")
+   escreva("Escolha uma opcao entre as listadas acima: ")
    leia(opcao)
    limpatela()
    retorne (opcao)
@@ -69,6 +82,35 @@ inicio
    retorne 0
 fimfuncao
 
+//@description: nem ferrando que eu vou varrer o vetor de 50
+//irei usar da mesma strategia de apontador de quantidade
+// e pegar a quantidade dele para varrer
+funcao consultarCliente(nome:caracter):caractere
+var
+   i:inteiro
+   procurado:caractere
+inicio
+   para i de 1 ate apontador_cliente faca
+      se (clientes[i] = nome) entao
+         procurado <- ("Encontrado ele e o " +Numpcarac(i)+ " cliente cadastrado no sistema")
+      fimse
+   fimpara
+   retorne procurado
+fimfuncao
+
+funcao consultarDestino(nome:caracter):caractere
+var
+   i:inteiro
+   procurado,convertido:caractere
+inicio
+   frase <-  " Encontramos Para esse Destino os clientes: "
+   para i de 1 ate apontador_destino faca
+      se (destinos[i] = nome) entao
+         procurado <- ("encontrado ele e o " +Numpcarac(i)+ " destino cadastrado no sistema")
+      fimse
+   fimpara
+   retorne procurado
+fimfuncao
 
 Inicio
 
@@ -79,7 +121,6 @@ Inicio
    apontador_destino <-  1
    repita
       opt <- menuOpcao()
-      //clientes[1]<- nom1
       escolha opt
       caso 0
          //sair
@@ -97,12 +138,28 @@ Inicio
             escreval("Destino cadastrado!")
          fimse
          doisEspacos()
+      caso 3
+         escreval("Digite o nome do Cliente: ")
+         leia(search)
+         escreval(consultarCliente(search))
+         doisEspacos()
+      caso 4
+         escreval("Digite o nome do Destino: ")
+         leia(search)
+         escreval(consultarDestino(search))
+         doisEspacos()
+      caso 5
+         escreval("Todos os clientes:")
+         consultar("clientes")
+         doisEspacos()
+      caso 6
+         escreval("Todos os os destinos:")
+         consultar("destinos")
+         doisEspacos()
       outrocaso
          escreval("opcao invalida")
          doisEspacos()
       fimescolha
-
    ate opt=0
-
 
 Fimalgoritmo
