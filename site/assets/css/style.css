@@ -1,33 +1,37 @@
 nav {
     width: 100%;
-    height: 7%;
+    min-height: 10%;
     background-color: aliceblue;
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 2px -6px 15px 5px rgba(0, 0, 0, 0);
     box-shadow: 0px 10px 13px -7px #000000, 2px -6px 15px 5px rgba(0, 0, 0, 0);
+    z-index: 1;
 }
-
 header {
     width: 100%;
     /* height: 45%; */
     background: #cc7a2e;
 }
-
 main {
     width: 100%;
-    margin: 0 auto;
-    height: 800px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
     background: #cbc3ce;
 }
-
 section {
     width: 90%;
-    height: 120px;
+    min-height: 100vh;
     background: #cc332e;
 
 }
-
 footer {
     width: 100%;
     height: 25%;
     background: #5bcc2e;
+}
+.h1-centralizado{
+    text-align: center;
 }
