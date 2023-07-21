@@ -18,3 +18,8 @@ requisitos
 - [] Crie páginas: Home, Destino, Promoções, Contato e outras páginas de acordo com seu modelo de negócio. Utilização de HTML, CSS e BOOTSTRAP;
 - [] As páginas devem ser responsivas ou adaptáveis.
 - [] Faça a formatação de acordo com a paleta de cores escolhida.
+
+### Como visualizar projeto web
+
+- Entrar na pasta site 
+- Abrir o index.html usando um Live server, ou cliando em abrir com navegador mesmo

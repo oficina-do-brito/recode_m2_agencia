@@ -17,3 +17,4 @@ pids
 *.pid.lock
 vscode/
 web_modules/
+.requirements.txt
