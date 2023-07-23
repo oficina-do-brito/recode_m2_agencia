@@ -12,6 +12,7 @@ requisitos
 - [x] Criar consulta para cada uma das estruturas de dados
 ## módulo 2 problema 2
 Criar o protótipo de uma primeira versão de um site para uma agência de viagens.
+[Designer base](https://www.figma.com/file/GdiXwHOYuu9qTnoBIY1yG3/agencia_viagens?type=design&node-id=0%3A1&mode=design&t=Glehzjgrl4iaM9SM-1)
 
 requisitos
 - [] Criar um protótipo da primeira versão do site;
