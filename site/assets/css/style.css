@@ -29,6 +29,7 @@ footer {
 }
 .h1-centralizado{
     text-align: center;
+    padding: 100px 0;
 }
 .h2-destaque{
     color: var(--c-b);
