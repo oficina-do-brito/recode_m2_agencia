@@ -12,15 +12,21 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 :root{
-    --c-b:#00457C;
     --c-w:#FFF;
     --c-g-100:#EEEEEE;
     --c-g-500:rgba(193, 198, 222,0.2);
+    --c-b-90:#DFF1FF;
+    --c-b:#00457C;
 }
 .imagens-carousel{
     max-width: 100%;
     object-fit: cover;
     height: 300px;
+}
+.img-md-site {
+    max-width: 100%;
+    object-fit: cover;
+    height: 500px;
 }
 .h500{
     height: 310px;

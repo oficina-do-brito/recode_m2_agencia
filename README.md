@@ -15,10 +15,24 @@ Criar o protótipo de uma primeira versão de um site para uma agência de viage
 [Designer base](https://www.figma.com/file/GdiXwHOYuu9qTnoBIY1yG3/agencia_viagens?type=design&node-id=0%3A1&mode=design&t=Glehzjgrl4iaM9SM-1)
 
 requisitos
-- [] Criar um protótipo da primeira versão do site;
-- [] Crie páginas: Home, Destino, Promoções, Contato e outras páginas de acordo com seu modelo de negócio. Utilização de HTML, CSS e BOOTSTRAP;
-- [] As páginas devem ser responsivas ou adaptáveis.
+- [x] Criar um protótipo da primeira versão do site;
+- [x] Crie páginas: Home, Destino, Promoções, Contato e outras páginas de acordo com seu modelo de negócio. Utilização de HTML, CSS e BOOTSTRAP;
+- [x] As páginas devem ser responsivas ou adaptáveis.
 - [] Faça a formatação de acordo com a paleta de cores escolhida.
+
+#### Logica e Objetivos 
+
+- [] Apresentar seus serviços
+    - (adquerir) *pag. home* com cards - adicionando ao carrinho de compra 
+    - (comprar) pagina para add e remove do carrinho
+    - (pesquisar) *pag. destino* com ofertas e hoteis locais, pesquisar
+
+- [] Melhorar os serviços oferecidos aos seus parceiros
+    - (divulgação)
+    - (dashboard com faiza de preços mais escolhidos pelos clientes)
+
+- [] Organizar as informações dos seus clientes
+    
 
 ### Como visualizar projeto web
 

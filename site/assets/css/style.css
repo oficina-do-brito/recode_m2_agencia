@@ -34,6 +34,6 @@ footer {
 .h2-destaque{
     color: var(--c-b);
 }
-.container-figure{
-    background-color: #DFF1FF;
+.bg-container-figure{
+    background-color: var(--c-b-90);
 }

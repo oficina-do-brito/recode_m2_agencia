@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./bootstrap-5.3.0/css/bootstrap.min.css">
+  <script defer type="text/javascript" src="./bootstrap-5.3.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/contatos.css">
+</head>
+
+<body>
+  <!-- TODO: navbar  -->
+  <nav class="navbar w-100 sticky-md-top navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html">
+        <!-- TODO: Arrumar tamanho da logo  -->
+        <img src="./assets/img/logo.png" alt="logo da agencia" width="50px" height="50px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./destinos.html">Destinos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html#Promoções">Promoções</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contatos.html">Contatos</a>
+          </li>
+        </ul>
+        <button type="button" class="btn btn-outline-primary rounded-pill mx-md-5">Login</button>
+      </div>
+    </div>
+  </nav>
+
+  <div class=" container-fluid d-flex flex-column justify-content-center c-body-contact">
+    <!-- TODO: banner info -->
+    <div class="container-fluid banner w-100 d-flex flex-column align-items-start justify-content-center">
+        <h2 class="text-center">Entre em contato conosco</h2>
+    </div>
+
+    <div class="explicativos justify-self-start">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis unde aut numquam sed quam dignissimos repudiandae,
+      id sunt esse harum laboriosam similique sit maxime, nulla at quidem accusamus deserunt. Aspernatur!
+    </div>
+
+    <div class="container h-auto border border-primary rounded position-absolute mb-5 form-contato">
+      <!-- form  -->
+      <form class="row g-3 p-5">
+        <div class="col-md-12">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-12">
+          <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Address 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">State</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="container w-100 h-100"></div>
+
+  </div>
+  <!-- TODO: Footer -->
+  <footer class="h-auto m-0 container-fluid row p-5">
+    <ul class="nav flex-column col-sm-12 col-md-3 align-items-center">
+      <li class="text-light">
+        <h5>Sobre a Empresa</h5>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#" aria-current="page">Atendimento ao Cliente</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link  text-light" href="#"> Termos de Uso</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#">Políticas de Privacidade</a>
+      </li>
+    </ul>
+
+    <ul class="nav flex-column col-sm-12 col-md-3 align-items-center">
+      <li class="text-light">
+        <h5>Agencias e Parceiras</h5>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#" aria-current="page">Active link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#">Disabled link</a>
+      </li>
+    </ul>
+
+    <ul class="nav flex-column col-sm-12 col-md-3 align-items-center">
+      <li class="text-light text-center">
+        <h5>Companhias Aéreas Parceiras</h5>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#" aria-current="page">Nenhuma</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#">Nenhuma</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#">Alguma</a>
+      </li>
+    </ul>
+
+    <ul class="nav flex-column col-sm-12 col-md-3 align-items-center">
+      <li class="text-light text-center">
+        <h5>Entre em contato conosco</h5>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="./contatos.html" aria-current="page">Realizar contato</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light">84 99999999</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light">@email.com</a>
+      </li>
+    </ul>
+  </footer>
+
+</body>
+
+</html>
