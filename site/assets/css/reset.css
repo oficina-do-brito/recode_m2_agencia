@@ -12,21 +12,22 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 :root{
+    --c-g-500:rgba(193, 198, 222,0.2);
+
     --c-w:#FFF;
     --c-g-100:#EEEEEE;
-    --c-g-500:rgba(193, 198, 222,0.2);
     --c-b-90:#DFF1FF;
+    --c-b-400:#A6C1FF;
+    --c-b-600:#598BFF;
+    --c-b-700:#3366FF;
+    --c-b-800:#1A34B8;
+    --c-b-900:#369DF8;
     --c-b:#00457C;
 }
 .imagens-carousel{
     max-width: 100%;
     object-fit: cover;
     height: 300px;
-}
-.img-md-site {
-    max-width: 100%;
-    object-fit: cover;
-    height: 500px;
 }
 .h500{
     height: 310px;

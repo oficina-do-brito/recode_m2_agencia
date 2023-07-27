@@ -7,7 +7,7 @@
     <title>Agencia de Viagens</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./bootstrap-5.3.0/css/bootstrap.min.css">
-    <script defer type="text/javascript" src="./bootstrap-5.3.0/js/bootstrap.min.js"></script>
+    <script defer src="./bootstrap-5.3.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/card.css">
 
@@ -19,7 +19,7 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="./index.html">
                 <!-- TODO: Arrumar tamanho da logo  -->
-                <img src="./assets/img/logo.png" alt="logo da agencia" width="50px" height="50px">
+                <img src="./assets/img/logo.png" alt="logo da agencia" width="50" height="50">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -41,7 +41,7 @@
                         <a class="nav-link" href="./contatos.html">Contatos</a>
                     </li>
                 </ul>
-                <button type="button" class="btn btn-outline-primary rounded-pill mx-md-5">Login</button>
+                <a class="nav-link" href="./manage_clientes.html"><button type="button" class="btn btn-outline-primary rounded-pill mx-md-5">Login</button></a>
             </div>
         </div>
     </nav>
@@ -61,7 +61,7 @@
                     <img class="d-block w-100 imagens-carousel " src="./assets/img/journey.jpg"
                         alt="imagem planos para viagens">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5 class="fs-1 fw-bold" >Retire seus planos do papel</h5>
+                        <h5 class="fs-1 fw-bold">Retire seus planos do papel</h5>
                         <p class="fs-6">Planeje sua viagem contando com os melhores preços do mercado</p>
                     </div>
                 </div>
@@ -100,8 +100,8 @@
             <div class="content m-auto">
                 <h2>Viagens Nacionais <span class="h2-destaque">com 20% de desconto</span></h2>
                 <div class="w-100 h-auto d-flex container-card">
+
                     <div class="card basic">
-                        <!-- 1 seção preço  -->
                         <div class="price-section">
                             <div class="price-area simples">
                                 <div class="inner-area simples">
@@ -111,33 +111,28 @@
                             </div>
                         </div>
 
-                        <!-- 2 Seção escrita -->
                         <div class="pachage-name simples"></div>
                         <div class="features">
-                            <li>
-                                <span class="list-name">One section template</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Outra coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Mais uma coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
+                            <ul>
+                                <li>
+                                    <span class="list-name">One section template</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                                <li>
+                                    <span class="list-name">Outra coisa</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                                <li>
+                                    <span class="list-name">Mais uma coisa</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                            </ul>
                         </div>
-                        <!-- 3 Seção do botao  -->
                         <div class="btn">
                             <button class="simples">Comprar</button>
                         </div>
                     </div>
-
                     <div class="card basic">
-                        <!-- 1 seção preço  -->
                         <div class="price-section">
                             <div class="price-area simples">
                                 <div class="inner-area simples">
@@ -146,33 +141,28 @@
                                 </div>
                             </div>
                         </div>
-
-                        <!-- 2 Seção escrita -->
                         <div class="pachage-name simples"></div>
                         <div class="features">
-                            <li>
-                                <span class="list-name">One section template</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Outra coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Mais uma coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
+                            <ul>
+                                <li>
+                                    <span class="list-name">One section template</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                                <li>
+                                    <span class="list-name">Outra coisa</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                                <li>
+                                    <span class="list-name">Mais uma coisa</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                            </ul>
                         </div>
-                        <!-- 3 Seção do botao  -->
                         <div class="btn">
                             <button class="simples">Comprar</button>
                         </div>
                     </div>
                     <div class="card basic">
-                        <!-- 1 seção preço  -->
                         <div class="price-section">
                             <div class="price-area simples">
                                 <div class="inner-area simples">
@@ -181,109 +171,32 @@
                                 </div>
                             </div>
                         </div>
-
-                        <!-- 2 Seção escrita -->
                         <div class="pachage-name simples"></div>
                         <div class="features">
-                            <li>
-                                <span class="list-name">One section template</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Outra coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Mais uma coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
+                            <ul>
+                                <li>
+                                    <span class="list-name">One section template</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                                <li>
+                                    <span class="list-name">Outra coisa</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                                <li>
+                                    <span class="list-name">Mais uma coisa</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                            </ul>
                         </div>
-                        <!-- 3 Seção do botao  -->
                         <div class="btn">
                             <button class="simples">Comprar</button>
                         </div>
                     </div>
-                    <div class="card basic">
-                        <!-- 1 seção preço  -->
-                        <div class="price-section">
-                            <div class="price-area simples">
-                                <div class="inner-area simples">
-                                    <span class="text">$</span>
-                                    <span class="preço">29</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- 2 Seção escrita -->
-                        <div class="pachage-name simples"></div>
-                        <div class="features">
-                            <li>
-                                <span class="list-name">One section template</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Outra coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Mais uma coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                        </div>
-                        <!-- 3 Seção do botao  -->
-                        <div class="btn">
-                            <button class="simples">Comprar</button>
-                        </div>
-                    </div>
-                    <div class="card basic">
-                        <!-- 1 seção preço  -->
-                        <div class="price-section">
-                            <div class="price-area simples">
-                                <div class="inner-area simples">
-                                    <span class="text">$</span>
-                                    <span class="preço">29</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- 2 Seção escrita -->
-                        <div class="pachage-name simples"></div>
-                        <div class="features">
-                            <li>
-                                <span class="list-name">One section template</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Outra coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Mais uma coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                        </div>
-                        <!-- 3 Seção do botao  -->
-                        <div class="btn">
-                            <button class="simples">Comprar</button>
-                        </div>
-                    </div>
-
                     <!-- recomendado  -->
                     <div class="card premium">
-                        <!-- secao de cabecalho decoração  -->
                         <div class="rib">
                             <div class="ribbon"><span>Recomendado</span></div>
                         </div>
-                        <!-- SECAO de preço  -->
                         <div class="price-section">
                             <div class="price-area verde">
                                 <div class="inner-area verde">
@@ -292,31 +205,26 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- 2 Secao escrita -->
                         <div class="pachage-name verde"></div>
                         <div class="features">
-                            <li>
-                                <span class="list-name">One section template</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Outra coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Mais uma coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
+                            <ul>
+                                <li>
+                                    <span class="list-name">One section template</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                                <li>
+                                    <span class="list-name">Outra coisa</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                                <li>
+                                    <span class="list-name">Mais uma coisa</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                            </ul>
                         </div>
-                        <!-- 3 botao  -->
-
                         <div class="btn">
                             <button class="verde">Purchase</button>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -326,7 +234,6 @@
                 <h2>Viagens Internacional <span class="h2-destaque">em até 12 vezes</span>.</h2>
                 <div class="w-100 h-auto d-flex container-card">
                     <div class="card basic">
-                        <!-- 1 seção preço  -->
                         <div class="price-section">
                             <div class="price-area simples">
                                 <div class="inner-area simples">
@@ -336,68 +243,28 @@
                             </div>
                         </div>
 
-                        <!-- 2 Seção escrita -->
                         <div class="pachage-name simples"></div>
                         <div class="features">
-                            <li>
-                                <span class="list-name">One section template</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Outra coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Mais uma coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
+                            <ul>
+                                <li>
+                                    <span class="list-name">One section template</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                                <li>
+                                    <span class="list-name">Outra coisa</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                                <li>
+                                    <span class="list-name">Mais uma coisa</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                            </ul>
                         </div>
-                        <!-- 3 Seção do botao  -->
-                        <div class="btn">
-                            <button class="simples">Comprar</button>
-                        </div>
-                    </div>
-
-                    <div class="card basic">
-                        <!-- 1 seção preço  -->
-                        <div class="price-section">
-                            <div class="price-area simples">
-                                <div class="inner-area simples">
-                                    <span class="text">$</span>
-                                    <span class="preço">29</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- 2 Seção escrita -->
-                        <div class="pachage-name simples"></div>
-                        <div class="features">
-                            <li>
-                                <span class="list-name">One section template</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Outra coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Mais uma coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                        </div>
-                        <!-- 3 Seção do botao  -->
                         <div class="btn">
                             <button class="simples">Comprar</button>
                         </div>
                     </div>
                     <div class="card basic">
-                        <!-- 1 seção preço  -->
                         <div class="price-section">
                             <div class="price-area simples">
                                 <div class="inner-area simples">
@@ -407,108 +274,32 @@
                             </div>
                         </div>
 
-                        <!-- 2 Seção escrita -->
                         <div class="pachage-name simples"></div>
                         <div class="features">
-                            <li>
-                                <span class="list-name">One section template</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Outra coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Mais uma coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
+                            <ul>
+                                <li>
+                                    <span class="list-name">One section template</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                                <li>
+                                    <span class="list-name">Outra coisa</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                                <li>
+                                    <span class="list-name">Mais uma coisa</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                            </ul>
                         </div>
-                        <!-- 3 Seção do botao  -->
                         <div class="btn">
                             <button class="simples">Comprar</button>
                         </div>
                     </div>
-                    <div class="card basic">
-                        <!-- 1 seção preço  -->
-                        <div class="price-section">
-                            <div class="price-area simples">
-                                <div class="inner-area simples">
-                                    <span class="text">$</span>
-                                    <span class="preço">29</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- 2 Seção escrita -->
-                        <div class="pachage-name simples"></div>
-                        <div class="features">
-                            <li>
-                                <span class="list-name">One section template</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Outra coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Mais uma coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                        </div>
-                        <!-- 3 Seção do botao  -->
-                        <div class="btn">
-                            <button class="simples">Comprar</button>
-                        </div>
-                    </div>
-                    <div class="card basic">
-                        <!-- 1 seção preço  -->
-                        <div class="price-section">
-                            <div class="price-area simples">
-                                <div class="inner-area simples">
-                                    <span class="text">$</span>
-                                    <span class="preço">29</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- 2 Seção escrita -->
-                        <div class="pachage-name simples"></div>
-                        <div class="features">
-                            <li>
-                                <span class="list-name">One section template</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Outra coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Mais uma coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                        </div>
-                        <!-- 3 Seção do botao  -->
-                        <div class="btn">
-                            <button class="simples">Comprar</button>
-                        </div>
-                    </div>
-
-                    <!-- CARD COM Enfeite  -->
+                    <!-- recomendado  -->
                     <div class="card premium">
-                        <!-- secao de cabecalho decoração  -->
                         <div class="rib">
                             <div class="ribbon"><span>Recomendado</span></div>
                         </div>
-                        <!-- SECAO de preço  -->
                         <div class="price-section">
                             <div class="price-area verde">
                                 <div class="inner-area verde">
@@ -517,26 +308,23 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- 2 Secao escrita -->
                         <div class="pachage-name verde"></div>
                         <div class="features">
-                            <li>
-                                <span class="list-name">One section template</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Outra coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Mais uma coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
+                            <ul>
+                                <li>
+                                    <span class="list-name">One section template</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                                <li>
+                                    <span class="list-name">Outra coisa</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                                <li>
+                                    <span class="list-name">Mais uma coisa</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                            </ul>
                         </div>
-                        <!-- 3 botao  -->
 
                         <div class="btn">
                             <button class="verde">Purchase</button>
@@ -551,7 +339,6 @@
                 <h2>Pacotes completos aéreo + hotel</h2>
                 <div class="w-100 h-auto d-flex container-card">
                     <div class="card basic">
-                        <!-- 1 seção preço  -->
                         <div class="price-section">
                             <div class="price-area simples">
                                 <div class="inner-area simples">
@@ -561,68 +348,28 @@
                             </div>
                         </div>
 
-                        <!-- 2 Seção escrita -->
                         <div class="pachage-name simples"></div>
                         <div class="features">
-                            <li>
-                                <span class="list-name">One section template</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Outra coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Mais uma coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
+                            <ul>
+                                <li>
+                                    <span class="list-name">One section template</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                                <li>
+                                    <span class="list-name">Outra coisa</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                                <li>
+                                    <span class="list-name">Mais uma coisa</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                            </ul>
                         </div>
-                        <!-- 3 Seção do botao  -->
-                        <div class="btn">
-                            <button class="simples">Comprar</button>
-                        </div>
-                    </div>
-
-                    <div class="card basic">
-                        <!-- 1 seção preço  -->
-                        <div class="price-section">
-                            <div class="price-area simples">
-                                <div class="inner-area simples">
-                                    <span class="text">$</span>
-                                    <span class="preço">29</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- 2 Seção escrita -->
-                        <div class="pachage-name simples"></div>
-                        <div class="features">
-                            <li>
-                                <span class="list-name">One section template</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Outra coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Mais uma coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                        </div>
-                        <!-- 3 Seção do botao  -->
                         <div class="btn">
                             <button class="simples">Comprar</button>
                         </div>
                     </div>
                     <div class="card basic">
-                        <!-- 1 seção preço  -->
                         <div class="price-section">
                             <div class="price-area simples">
                                 <div class="inner-area simples">
@@ -632,32 +379,28 @@
                             </div>
                         </div>
 
-                        <!-- 2 Seção escrita -->
                         <div class="pachage-name simples"></div>
                         <div class="features">
-                            <li>
-                                <span class="list-name">One section template</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Outra coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Mais uma coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
+                            <ul>
+                                <li>
+                                    <span class="list-name">One section template</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                                <li>
+                                    <span class="list-name">Outra coisa</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                                <li>
+                                    <span class="list-name">Mais uma coisa</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                            </ul>
                         </div>
-                        <!-- 3 Seção do botao  -->
                         <div class="btn">
                             <button class="simples">Comprar</button>
                         </div>
                     </div>
                     <div class="card basic">
-                        <!-- 1 seção preço  -->
                         <div class="price-section">
                             <div class="price-area simples">
                                 <div class="inner-area simples">
@@ -667,73 +410,32 @@
                             </div>
                         </div>
 
-                        <!-- 2 Seção escrita -->
                         <div class="pachage-name simples"></div>
                         <div class="features">
-                            <li>
-                                <span class="list-name">One section template</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Outra coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Mais uma coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
+                            <ul>
+                                <li>
+                                    <span class="list-name">One section template</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                                <li>
+                                    <span class="list-name">Outra coisa</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                                <li>
+                                    <span class="list-name">Mais uma coisa</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                            </ul>
                         </div>
-                        <!-- 3 Seção do botao  -->
                         <div class="btn">
                             <button class="simples">Comprar</button>
                         </div>
                     </div>
-                    <div class="card basic">
-                        <!-- 1 seção preço  -->
-                        <div class="price-section">
-                            <div class="price-area simples">
-                                <div class="inner-area simples">
-                                    <span class="text">$</span>
-                                    <span class="preço">29</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- 2 Seção escrita -->
-                        <div class="pachage-name simples"></div>
-                        <div class="features">
-                            <li>
-                                <span class="list-name">One section template</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Outra coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Mais uma coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                        </div>
-                        <!-- 3 Seção do botao  -->
-                        <div class="btn">
-                            <button class="simples">Comprar</button>
-                        </div>
-                    </div>
-
-                    <!-- CARD COM Enfeite  -->
+                    <!-- recomendado  -->
                     <div class="card premium">
-                        <!-- secao de cabecalho decoração  -->
                         <div class="rib">
                             <div class="ribbon"><span>Recomendado</span></div>
                         </div>
-                        <!-- SECAO de preço  -->
                         <div class="price-section">
                             <div class="price-area verde">
                                 <div class="inner-area verde">
@@ -742,27 +444,23 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- 2 Secao escrita -->
                         <div class="pachage-name verde"></div>
                         <div class="features">
-                            <li>
-                                <span class="list-name">One section template</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Outra coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Mais uma coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
+                            <ul>
+                                <li>
+                                    <span class="list-name">One section template</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                                <li>
+                                    <span class="list-name">Outra coisa</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                                <li>
+                                    <span class="list-name">Mais uma coisa</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                            </ul>
                         </div>
-                        <!-- 3 botao  -->
-
                         <div class="btn">
                             <button class="verde">Purchase</button>
                         </div>
@@ -776,13 +474,11 @@
             <div class="content m-auto">
                 <h2>Principais pacotes em Promoção, <span class="h2-destaque">até 40% de desconto</span></h2>
                 <div class="w-100 h-auto d-flex container-card">
-                    <!-- CARD COM Enfeite  -->
+                    <!-- recomendado  -->
                     <div class="card premium">
-                        <!-- secao de cabecalho decoração  -->
                         <div class="rib">
                             <div class="ribbon"><span>Recomendado</span></div>
                         </div>
-                        <!-- SECAO de preço  -->
                         <div class="price-section">
                             <div class="price-area verde">
                                 <div class="inner-area verde">
@@ -791,200 +487,32 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- 2 Secao escrita -->
                         <div class="pachage-name verde"></div>
                         <div class="features">
-                            <li>
-                                <span class="list-name">One section template</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Outra coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Mais uma coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
+                            <ul>
+                                <li>
+                                    <span class="list-name">One section template</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                                <li>
+                                    <span class="list-name">Outra coisa</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                                <li>
+                                    <span class="list-name">Mais uma coisa</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                            </ul>
                         </div>
-                        <!-- 3 botao  -->
-
                         <div class="btn">
                             <button class="verde">Purchase</button>
                         </div>
-
-                    </div> <!-- CARD COM Enfeite  -->
-                    <div class="card premium">
-                        <!-- secao de cabecalho decoração  -->
-                        <div class="rib">
-                            <div class="ribbon"><span>Recomendado</span></div>
-                        </div>
-                        <!-- SECAO de preço  -->
-                        <div class="price-section">
-                            <div class="price-area verde">
-                                <div class="inner-area verde">
-                                    <span class="text">$</span>
-                                    <span class="preço">69</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- 2 Secao escrita -->
-                        <div class="pachage-name verde"></div>
-                        <div class="features">
-                            <li>
-                                <span class="list-name">One section template</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Outra coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Mais uma coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                        </div>
-                        <!-- 3 botao  -->
-
-                        <div class="btn">
-                            <button class="verde">Purchase</button>
-                        </div>
-
-                    </div> <!-- CARD COM Enfeite  -->
-                    <div class="card premium">
-                        <!-- secao de cabecalho decoração  -->
-                        <div class="rib">
-                            <div class="ribbon"><span>Recomendado</span></div>
-                        </div>
-                        <!-- SECAO de preço  -->
-                        <div class="price-section">
-                            <div class="price-area verde">
-                                <div class="inner-area verde">
-                                    <span class="text">$</span>
-                                    <span class="preço">69</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- 2 Secao escrita -->
-                        <div class="pachage-name verde"></div>
-                        <div class="features">
-                            <li>
-                                <span class="list-name">One section template</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Outra coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Mais uma coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                        </div>
-                        <!-- 3 botao  -->
-
-                        <div class="btn">
-                            <button class="verde">Purchase</button>
-                        </div>
-
-                    </div> <!-- CARD COM Enfeite  -->
-                    <div class="card premium">
-                        <!-- secao de cabecalho decoração  -->
-                        <div class="rib">
-                            <div class="ribbon"><span>Recomendado</span></div>
-                        </div>
-                        <!-- SECAO de preço  -->
-                        <div class="price-section">
-                            <div class="price-area verde">
-                                <div class="inner-area verde">
-                                    <span class="text">$</span>
-                                    <span class="preço">69</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- 2 Secao escrita -->
-                        <div class="pachage-name verde"></div>
-                        <div class="features">
-                            <li>
-                                <span class="list-name">One section template</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Outra coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Mais uma coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                        </div>
-                        <!-- 3 botao  -->
-
-                        <div class="btn">
-                            <button class="verde">Purchase</button>
-                        </div>
-
-                    </div> <!-- CARD COM Enfeite  -->
-                    <div class="card premium">
-                        <!-- secao de cabecalho decoração  -->
-                        <div class="rib">
-                            <div class="ribbon"><span>Recomendado</span></div>
-                        </div>
-                        <!-- SECAO de preço  -->
-                        <div class="price-section">
-                            <div class="price-area verde">
-                                <div class="inner-area verde">
-                                    <span class="text">$</span>
-                                    <span class="preço">69</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- 2 Secao escrita -->
-                        <div class="pachage-name verde"></div>
-                        <div class="features">
-                            <li>
-                                <span class="list-name">One section template</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Outra coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Mais uma coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                        </div>
-                        <!-- 3 botao  -->
-
-                        <div class="btn">
-                            <button class="verde">Purchase</button>
-                        </div>
-
                     </div>
-
-                    <!-- CARD COM Enfeite  -->
+                    <!-- recomendado  -->
                     <div class="card premium">
-                        <!-- secao de cabecalho decoração  -->
                         <div class="rib">
                             <div class="ribbon"><span>Recomendado</span></div>
                         </div>
-                        <!-- SECAO de preço  -->
                         <div class="price-section">
                             <div class="price-area verde">
                                 <div class="inner-area verde">
@@ -993,31 +521,128 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- 2 Secao escrita -->
                         <div class="pachage-name verde"></div>
                         <div class="features">
-                            <li>
-                                <span class="list-name">One section template</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Outra coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
-                            <li>
-                                <span class="list-name">Mais uma coisa</span>
-                                <!-- icone -->
-                                <span class="icon check"> <i class="fas fa-check"> v </i> </span>
-                            </li>
+                            <ul>
+                                <li>
+                                    <span class="list-name">One section template</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                                <li>
+                                    <span class="list-name">Outra coisa</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                                <li>
+                                    <span class="list-name">Mais uma coisa</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                            </ul>
                         </div>
-                        <!-- 3 botao  -->
-
                         <div class="btn">
                             <button class="verde">Purchase</button>
                         </div>
-
+                    </div>
+                    <!-- recomendado  -->
+                    <div class="card premium">
+                        <div class="rib">
+                            <div class="ribbon"><span>Recomendado</span></div>
+                        </div>
+                        <div class="price-section">
+                            <div class="price-area verde">
+                                <div class="inner-area verde">
+                                    <span class="text">$</span>
+                                    <span class="preço">69</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pachage-name verde"></div>
+                        <div class="features">
+                            <ul>
+                                <li>
+                                    <span class="list-name">One section template</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                                <li>
+                                    <span class="list-name">Outra coisa</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                                <li>
+                                    <span class="list-name">Mais uma coisa</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="btn">
+                            <button class="verde">Purchase</button>
+                        </div>
+                    </div>
+                    <!-- recomendado  -->
+                    <div class="card premium">
+                        <div class="rib">
+                            <div class="ribbon"><span>Recomendado</span></div>
+                        </div>
+                        <div class="price-section">
+                            <div class="price-area verde">
+                                <div class="inner-area verde">
+                                    <span class="text">$</span>
+                                    <span class="preço">69</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pachage-name verde"></div>
+                        <div class="features">
+                            <ul>
+                                <li>
+                                    <span class="list-name">One section template</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                                <li>
+                                    <span class="list-name">Outra coisa</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                                <li>
+                                    <span class="list-name">Mais uma coisa</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="btn">
+                            <button class="verde">Purchase</button>
+                        </div>
+                    </div>
+                    <!-- recomendado  -->
+                    <div class="card premium">
+                        <div class="rib">
+                            <div class="ribbon"><span>Recomendado</span></div>
+                        </div>
+                        <div class="price-section">
+                            <div class="price-area verde">
+                                <div class="inner-area verde">
+                                    <span class="text">$</span>
+                                    <span class="preço">69</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pachage-name verde"></div>
+                        <div class="features">
+                            <ul>
+                                <li>
+                                    <span class="list-name">One section template</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                                <li>
+                                    <span class="list-name">Outra coisa</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                                <li>
+                                    <span class="list-name">Mais uma coisa</span>
+                                    <span class="icon check"> <i class="fas fa-check"> v </i> </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="btn">
+                            <button class="verde">Purchase</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1058,13 +683,13 @@
                 <h5>Sobre a Empresa</h5>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light" href="#" aria-current="page">Atendimento ao Cliente</a>
+                <a class="nav-link text-light fw-lighter" href="#" aria-current="page">Atendimento ao Cliente</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link  text-light" href="#"> Termos de Uso</a>
+                <a class="nav-link text-light fw-lighter" href="#"> Termos de Uso</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light" href="#">Políticas de Privacidade</a>
+                <a class="nav-link text-light fw-lighter" href="#">Políticas de Privacidade</a>
             </li>
         </ul>
 
@@ -1073,13 +698,13 @@
                 <h5>Agencias e Parceiras</h5>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light" href="#" aria-current="page">Active link</a>
+                <a class="nav-link text-light fw-lighter " href="#" aria-current="page">Active link</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light" href="#">Link</a>
+                <a class="nav-link text-light fw-lighter " href="#">Link</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light" href="#">Disabled link</a>
+                <a class="nav-link text-light fw-lighter " href="#">Disabled link</a>
             </li>
         </ul>
 
@@ -1088,13 +713,13 @@
                 <h5>Companhias Aéreas Parceiras</h5>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light" href="#" aria-current="page">Nenhuma</a>
+                <a class="nav-link text-light fw-lighter" href="#" aria-current="page">Nenhuma</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light" href="#">Nenhuma</a>
+                <a class="nav-link text-light fw-lighter" href="#">Nenhuma</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light" href="#">Alguma</a>
+                <a class="nav-link text-light fw-lighter" href="#">Alguma</a>
             </li>
         </ul>
 
@@ -1103,13 +728,13 @@
                 <h5>Entre em contato conosco</h5>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light" href="./contatos.html" aria-current="page">Realizar contato</a>
+                <a class="nav-link text-light fw-lighter" href="./contatos.html" aria-current="page">Realizar contato</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light">84 99999999</a>
+                <a class="nav-link text-light fw-lighter">84 99999999</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light">@email.com</a>
+                <a class="nav-link text-light fw-lighter">@email.com</a>
             </li>
         </ul>
     </footer>

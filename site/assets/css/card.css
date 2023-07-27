@@ -123,7 +123,7 @@
     padding: 2px;
     position: absolute;
     background: var(--c-b);
-    color: white;
+    color: var(--c-w);
     font-size: 12px;
     font-weight: 400;
     text-align: center;
@@ -141,7 +141,7 @@
 
     .card {
         width: calc(90% - 10px);
-        height: 400px;
+        height: 450px;
     }
 
     .price-section .price-area {
@@ -163,7 +163,23 @@
 
     .card .btn {
         display: flex;
-        margin-top: 10px;
+        margin-top: 0px;
+        justify-content: center;
+    }
+
+    .card .btn button {
+        width: 80%;
+        height: 40px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .card {
+        width: calc(90% - 10px);
+        height: 450px;
+    }
+    .card .btn {
+        display: flex;
+        margin-top: 0px;
         justify-content: center;
     }
 

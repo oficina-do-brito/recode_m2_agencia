@@ -29,7 +29,7 @@ requisitos
 
 - [] Melhorar os serviços oferecidos aos seus parceiros
     - (divulgação)
-    - (dashboard com faiza de preços mais escolhidos pelos clientes)
+    - (dashboard com faixa de preços mais escolhidos pelos clientes)
 
 - [] Organizar as informações dos seus clientes
     

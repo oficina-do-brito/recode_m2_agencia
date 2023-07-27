@@ -7,9 +7,8 @@
     <title>Destino</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./bootstrap-5.3.0/css/bootstrap.min.css">
-    <script defer type="text/javascript" src="./bootstrap-5.3.0/js/bootstrap.min.js"></script>
+    <script defer src="./bootstrap-5.3.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
-
 </head>
 
 <body>
@@ -18,7 +17,7 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="./index.html">
                 <!-- TODO: Arrumar tamanho da logo  -->
-                <img src="./assets/img/logo.png" alt="logo da agencia" width="50px" height="50px">
+                <img src="./assets/img/logo.png" alt="logo da agencia" width="50" height="50">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -40,7 +39,7 @@
                         <a class="nav-link" href="./index.html#Contatos">Contatos</a>
                     </li>
                 </ul>
-                <button type="button" class="btn btn-outline-primary rounded-pill mx-md-5">Login</button>
+                <a class="nav-link" href="./manage_clientes.html"><button type="button" class="btn btn-outline-primary rounded-pill mx-md-5">Login</button></a>
             </div>
         </div>
     </nav>
@@ -68,26 +67,50 @@
                 </div>
                 <!-- TODO: barra central  -->
                 <div class="col-sm-12 col-md-6 col-lg-7 col-xl-8 h-auto">
-                    <img class="img-md-site" src="https://picsum.photos/500/300" alt="">
+                    <img class="img-fluid" src="./assets/img/noronha.jpg" alt="">
                     <p class="mt-2">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil aperiam dolores tenetur commodi
-                        vero est reprehenderit eaque magni? Quam architecto, iusto odio eaque hic perspiciatis repellendus
-                        voluptatem saepe molestias modi exercitationem quaerat voluptate maiores in ipsam laudantium sed, q
-                        uasi quo velit consequatur placeat, doloribus neque. Ipsam enim animi non quos nihil similique odio
-                        te
-                        netur rem reprehenderit. Esse quidem sit obcaecati, est praesentium eius cumque iste eos quo quia a
-                        se
-                        qui dicta quae animi deserunt minima aliquid quaerat, qui explicabo illo autem cupiditate veritatis
-                        in
-                        ventore nemo! Saepe perspiciatis nobis quasi iure magni. Accusantium, voluptate expedita nostrum
-                        quis
-                        itaque molestias quod reprehenderit?</p>
+                        Fernando de Noronha é um arquipélago brasileiro do estado de Pernambuco. Formado por 21 ilhas,
+                        ilhotas e rochedos de origem vulcânica,
+                        ocupa uma área total de 26 km² — dos quais 17 km² são da ilha principal — e se situa no Oceano
+                        Atlântico a nordeste do Brasil continental,
+                        distando 545 km da capital pernambucana, Recife. O centro comercial da ilha é o núcleo urbano
+                        de Vila dos Remédios. A administração do Parque
+                        Nacional está atualmente a cargo do Instituto Chico Mendes de Conservação da Biodiversidade
+                        (ICMBio). 
+
+                        Avistada pela primeira vez entre 1500 e 1502, tem sua descoberta atribuída a uma expedição
+                        comandada pelo explorador Fernão de Loronha, embora haja controvérsias;
+                        porém é certo que o primeiro a descrevê-la foi Américo Vespúcio, em expedição realizada entre
+                        1503 e 1504. Primeira capitania hereditária do Brasil, o arquipélago
+                        sofreu constantes invasões de ingleses, franceses e holandeses entre os séculos XVI e XVIII. Em
+                        24 de setembro de 1700, Fernando de Noronha tornou-se, por carta régia,
+                        dependência de Pernambuco, capitania com a qual já tinha uma ligação histórica. Em 1736, a ilha
+                        foi invadida pela Companhia Francesa das Índias Orientais, passando-se
+                        a chamar Isle Dauphine, porém, no ano seguinte, uma expedição enviada pelo Recife expulsou os
+                        franceses. 
+
+                        Em 1942, com a Segunda Guerra Mundial, o arquipélago tornou-se território federal, cuja sigla
+                        era FN, passando a servir como base avançada de guerra; mas voltou à a
+                        dministração pernambucana quatro décadas e meia depois, no ano de 1988.  Atualmente
+                        Fernando de Noronha constitui um distrito estadual de Pernambuco, e
+                        é gerida por um administrador-geral designado pelo governo do estado. 
+
+                        Após uma campanha liderada pelo ambientalista José Truda Palazzo Júnior, em 14 de outubro de
+                        1988 a maior parte do arquipélago foi declarada Parque Nacional, com
+                        cerca de 11 270 ha,  para a proteção das espécies endêmicas lá existentes e da área de
+                        concentração dos golfinhos rotadores (Stenella longirostris), que se
+                        reúnem diariamente na Baía dos Golfinhos — o lugar de observação mais regular da espécie em todo
+                        o planeta. No ano de 2001 a UNESCO declarou Fernando de Noronha
+                        Patrimônio Natural da Humanidade.  A fauna é tão rica que pesquisadores continuam descobrindo
+                        novas espécies endêmicas de peixes na região — em 2020, uma
+                        expedição descobriu quatro novas espécies de peixes ainda não descritas pela ciência.
+                    </p>
                 </div>
                 <!-- TODO: barra direita  -->
                 <div class="col-sm-12 col-md-2 h-auto">
                     <h5>Hoteis</h5>
                     <div class="card" style="width: 15rem;">
-                        <img class="card-img-top" src="./assets/img/hoteis/hotel1.jpg"  alt="...">
+                        <img class="card-img-top" src="./assets/img/hoteis/hotel1.jpg" alt="...">
                         <div class="card-body">
                             <h6>hotel xxx</h6>
                             <p class="card-text">Some quick example text to build on the card title and make up the
@@ -120,7 +143,7 @@
 
         <div class="w-100 h-auto s2">
             <h5 class="h1-centralizado mt-sm-5">Pontos turisticos</h5>
-            <div  class="d-flex gap-3 justify-content-center flex-wrap mb-2">
+            <div class="d-flex gap-3 justify-content-center flex-wrap mb-2">
                 <div class="card" style="width: 15rem;">
                     <img src="https://picsum.photos/200/100" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -149,7 +172,7 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
         <!-- TODO: figure depoiment clientes  -->
         <div class="w-100 h-auto row p-5 bg-container-figure">
@@ -180,64 +203,65 @@
             </figure>
         </div>
     </main>
-    <!-- TODO: fazer os grip e tornar responsivo  -->
+    <!-- TODO: Footer -->
     <footer class="h-auto m-0 container-fluid row p-5">
-        <ul class="nav flex-column align-items-center col-sm-12 col-md-3">
-            <li class="nav-item text-light">
+        <ul class="nav flex-column col-sm-12 col-md-3 align-items-center">
+            <li class="text-light">
                 <h5>Sobre a Empresa</h5>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light" href="#" aria-current="page">Active link</a>
+                <a class="nav-link text-light fw-lighter" href="#" aria-current="page">Atendimento ao Cliente</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link  text-light" href="#">Link</a>
+                <a class="nav-link text-light fw-lighter" href="#"> Termos de Uso</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light" href="#">Disabled link</a>
+                <a class="nav-link text-light fw-lighter" href="#">Políticas de Privacidade</a>
             </li>
         </ul>
-        <ul class="nav flex-column align-items-center col-sm-12 col-md-3">
-            <li class="nav-item text-light">
-                <h5>Agencias Parceiras</h5>
+
+        <ul class="nav flex-column col-sm-12 col-md-3 align-items-center">
+            <li class="text-light">
+                <h5>Agencias e Parceiras</h5>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light" href="#" aria-current="page">Active link</a>
+                <a class="nav-link text-light fw-lighter " href="#" aria-current="page">Active link</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light" href="#">Link</a>
+                <a class="nav-link text-light fw-lighter " href="#">Link</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light" href="#">Disabled link</a>
+                <a class="nav-link text-light fw-lighter " href="#">Disabled link</a>
             </li>
         </ul>
-        <ul class="nav flex-column align-items-center col-sm-12 col-md-3">
-            <li class="nav-item text-light text-center">
+
+        <ul class="nav flex-column col-sm-12 col-md-3 align-items-center">
+            <li class="text-light text-center">
                 <h5>Companhias Aéreas Parceiras</h5>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light" href="#" aria-current="page">Active link</a>
+                <a class="nav-link text-light fw-lighter" href="#" aria-current="page">Nenhuma</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light" href="#">Link</a>
+                <a class="nav-link text-light fw-lighter" href="#">Nenhuma</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;"
-                    href="#">Disabled link</a>
+                <a class="nav-link text-light fw-lighter" href="#">Alguma</a>
             </li>
         </ul>
-        <ul class="nav flex-column align-items-center col-sm-12 col-md-3">
-            <li class="nav-item text-light">
-                <h5>Entre em contato</h5>
+
+        <ul class="nav flex-column col-sm-12 col-md-3 align-items-center">
+            <li class="text-light text-center">
+                <h5>Entre em contato conosco</h5>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light" href="#" aria-current="page">Active link</a>
+                <a class="nav-link text-light fw-lighter" href="./contatos.html" aria-current="page">Realizar contato</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light" href="#">Link</a>
+                <a class="nav-link text-light fw-lighter">84 99999999</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-light icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;"
-                    href="#">Disabled link</a>
+                <a class="nav-link text-light fw-lighter">@email.com</a>
             </li>
         </ul>
     </footer>
