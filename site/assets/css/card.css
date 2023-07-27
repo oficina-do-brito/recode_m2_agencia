@@ -40,20 +40,13 @@
 }
 
 .price-section .price-area {
-    width: 220px;
+    width: 200px;
     height: 120px;
     border-radius: 10px;
 }
-
-/* area de dentro do container de preço */
-.price-section .price-area .inner-area {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    border: 5px solid var(--c-w);
-    color: var(--c-w);
-    line-height: 117px;
-    text-align: center;
+.price-section .price-area .inner-area img {
+    width: 200px;
+    height: 120px;
 }
 
 /* seção de escrita */
@@ -93,6 +86,7 @@
 .card .btn button {
     width: 75%;
     height: 5%;
+    background: var(--c-b-900);
     color: var(--c-w);
     font-weight: 500;
     border: none;
@@ -100,6 +94,11 @@
     border-radius: 25px;
     font-size: 1.2rem;
     cursor: pointer;
+}
+
+.card .btn button:hover {
+    background: var(--c-b);
+    color: var(--c-g-100);
 }
 
 .card .rib {
@@ -150,15 +149,9 @@
         border-radius: 10px;
     }
 
-    /* area de dentro do container de preço */
-    .price-section .price-area .inner-area {
-        width: 100%;
-        height: 100%;
-        border-radius: 10px;
-        border: 5px solid var(--c-w);
-        color: var(--c-w);
-        line-height: 77px;
-        text-align: center;
+    .price-section .price-area .inner-area img {
+        width: 200px;
+        height: 120px;
     }
 
     .card .btn {
@@ -172,11 +165,13 @@
         height: 40px;
     }
 }
+
 @media only screen and (max-width: 768px) {
     .card {
         width: calc(90% - 10px);
         height: 450px;
     }
+
     .card .btn {
         display: flex;
         margin-top: 0px;

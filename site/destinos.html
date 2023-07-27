@@ -45,15 +45,21 @@
     </nav>
 
     <main class="d-flex flex-column">
-        <h1 class="h1-centralizado mt-sm-5">Destino x </h1>
+        <h1 class="h1-centralizado fw-light mt-sm-5">Destino x </h1>
         <div class="w-100 h-auto s1">
             <div class="container-fluid row">
                 <!-- TODO: barra esquerda  -->
                 <div class="col-sm-12 col-md-2 h-auto">
                     <ul class="nav flex-column">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Active</a>
-                        </li>
+                        <form class="row g-3">
+                            <div class="col-auto">
+                              <label for="inputSearch" class="visually-hidden">Buscar Destino</label>
+                              <input type="text" class="form-control rounded-pill" id="inputSearch" placeholder="... pesquisar destino">
+                            </div>
+                            <div class="col-auto">
+                              <button type="submit" class="btn btn-outline-primary rounded-pill mb-3">Buscar</button>
+                            </div>
+                          </form>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Link</a>
                         </li>
