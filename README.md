@@ -18,7 +18,7 @@ requisitos
 - [x] Criar um protótipo da primeira versão do site;
 - [x] Crie páginas: Home, Destino, Promoções, Contato e outras páginas de acordo com seu modelo de negócio. Utilização de HTML, CSS e BOOTSTRAP;
 - [x] As páginas devem ser responsivas ou adaptáveis.
-- [] Faça a formatação de acordo com a paleta de cores escolhida.
+- [x] Faça a formatação de acordo com a paleta de cores escolhida.
 
 #### Logica e Objetivos 
 
@@ -36,5 +36,6 @@ requisitos
 
 ### Como visualizar projeto web
 
+- [clicando aqui](https://oficina-do-brito.github.io/agv/index.html)
 - Entrar na pasta site 
 - Abrir o index.html usando um Live server, ou cliando em abrir com navegador mesmo
