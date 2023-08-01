@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <!-- TODO: navbar  -->
+  <!-- TODO: navbar stick  -->
   <nav class="navbar w-100 sticky-md-top navbar-expand-lg">
     <div class="container-fluid">
       <a class="navbar-brand" href="./index.html">
@@ -33,13 +33,34 @@
             <a class="nav-link" href="./destinos.html">Destinos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./index.html#Promoções">Promoções</a>
+            <a class="nav-link" href="index.html#promocoes">Promoções</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="./contatos.html">Contatos</a>
           </li>
         </ul>
-        <a class="nav-link" href="./manage_clientes.html"><button type="button" class="btn btn-outline-primary rounded-pill mx-md-5">Login</button></a>
+        <button type="button" class="btn btn-outline-primary rounded-pill mx-md-5"
+          onclick="clickFormVisible()">Login</button>
+        <div class="container bg-light form-flutuante">
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="email">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating ">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password">
+            <label for="floatingPassword">Password</label>
+          </div>
+          <div class="container d-flex">
+            <a class="nav-link" href="./manage_clientes.html">
+              <button type="submit" class="btn btn-outline-primary rounded-pill mx-md-5">Entrar</button>
+            </a>
+            <a class="nav-link">
+              <button type="button" class="btn btn-outline-danger rounded-pill mx-md-5"
+                onclick="clickFormNotVisible()">Fechar</button>
+            </a>
+          </div>
+
+        </div>
       </div>
     </div>
   </nav>
@@ -113,66 +134,66 @@
   <!-- TODO: Footer -->
   <footer class="h-auto m-0 container-fluid row p-5">
     <ul class="nav flex-column col-sm-12 col-md-3 align-items-center">
-        <li class="text-light">
-            <h5>Sobre a Empresa</h5>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-light fw-lighter" href="#" aria-current="page">Atendimento ao Cliente</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-light fw-lighter" href="#"> Termos de Uso</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-light fw-lighter" href="#">Políticas de Privacidade</a>
-        </li>
+      <li class="text-light">
+        <h5>Sobre a Empresa</h5>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light fw-lighter" href="#" aria-current="page">Atendimento ao Cliente</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light fw-lighter" href="#"> Termos de Uso</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light fw-lighter" href="#">Políticas de Privacidade</a>
+      </li>
     </ul>
 
     <ul class="nav flex-column col-sm-12 col-md-3 align-items-center">
-        <li class="text-light">
-            <h5>Agencias e Parceiras</h5>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-light fw-lighter " href="#" aria-current="page">Active link</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-light fw-lighter " href="#">Link</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-light fw-lighter " href="#">Disabled link</a>
-        </li>
+      <li class="text-light">
+        <h5>Agencias e Parceiras</h5>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light fw-lighter " href="#" aria-current="page">Active link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light fw-lighter " href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light fw-lighter " href="#">Disabled link</a>
+      </li>
     </ul>
 
     <ul class="nav flex-column col-sm-12 col-md-3 align-items-center">
-        <li class="text-light text-center">
-            <h5>Companhias Aéreas Parceiras</h5>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-light fw-lighter" href="#" aria-current="page">Nenhuma</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-light fw-lighter" href="#">Nenhuma</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-light fw-lighter" href="#">Alguma</a>
-        </li>
+      <li class="text-light text-center">
+        <h5>Companhias Aéreas Parceiras</h5>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light fw-lighter" href="#" aria-current="page">Nenhuma</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light fw-lighter" href="#">Nenhuma</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light fw-lighter" href="#">Alguma</a>
+      </li>
     </ul>
 
     <ul class="nav flex-column col-sm-12 col-md-3 align-items-center">
-        <li class="text-light text-center">
-            <h5>Entre em contato conosco</h5>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-light fw-lighter" href="./contatos.html" aria-current="page">Realizar contato</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-light fw-lighter">84 99999999</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-light fw-lighter">@email.com</a>
-        </li>
+      <li class="text-light text-center">
+        <h5>Entre em contato conosco</h5>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light fw-lighter" href="./contatos.html" aria-current="page">Realizar contato</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light fw-lighter">84 99999999</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light fw-lighter">@email.com</a>
+      </li>
     </ul>
-</footer>
-
+  </footer>
+  <script defer src="./assets/js/index.js"></script>
 </body>
 
 </html>

@@ -36,14 +36,36 @@
                         <a class="nav-link" href="./destinos.html">Destinos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#Promoções">Promoções</a>
+                        <a class="nav-link" href="#promocoes">Promoções</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./contatos.html">Contatos</a>
                     </li>
                 </ul>
-                <a class="nav-link" href="./manage_clientes.html"><button type="button"
-                        class="btn btn-outline-primary rounded-pill mx-md-5">Login</button></a>
+                <button type="button" class="btn btn-outline-primary rounded-pill mx-md-5"
+                    onclick="clickFormVisible()">Login</button>
+                <div class="container bg-light form-flutuante">
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"
+                            name="email">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating ">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password"
+                            name="password">
+                        <label for="floatingPassword">Password</label>
+                    </div>
+                    <div class="container d-flex">
+                        <a class="nav-link" href="./manage_clientes.html">
+                            <button type="submit" class="btn btn-outline-primary rounded-pill mx-md-5">Entrar</button>
+                        </a>
+                        <a class="nav-link">
+                            <button type="button" class="btn btn-outline-danger rounded-pill mx-md-5"
+                                onclick="clickFormNotVisible()">Fechar</button>
+                        </a>
+                    </div>
+
+                </div>
             </div>
         </div>
     </nav>
@@ -497,7 +519,7 @@
                 </div>
             </div>
         </section>
-        <section class="w-100 h-auto s2" id="Promoções">
+        <section class="w-100 h-auto s2" id="promocoes">
             <h2 class="h1-centralizado mt-sm-5 text-danger">Promoções</h2>
             <div class="content m-auto">
                 <h2 class="fw-light text-danger">Principais pacotes em promoção, <span class="h2-destaque fw-bold">até
@@ -666,6 +688,8 @@
             </li>
         </ul>
     </footer>
+
+    <script defer src="./assets/js/index.js"></script>
 </body>
 
 </html>

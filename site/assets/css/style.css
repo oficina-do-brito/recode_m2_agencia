@@ -41,3 +41,16 @@ footer {
 .bg-container-figure{
     background-color: var(--c-b-90);
 }
+.form-flutuante{
+    position: absolute;
+    width: auto;
+    height: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    top:10px;
+    right: 10px;
+    visibility: hidden;
+    & a{
+        margin-top: 30px;
+    }
+}
