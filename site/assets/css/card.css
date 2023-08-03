@@ -53,20 +53,8 @@
 .card .pachage-name {
     width: 100%;
     height: 2px;
-    margin: 35px 0;
+    margin: 5px 0;
     position: relative;
-}
-
-.card .pachage-name::before {
-    position: absolute;
-    content: "Basic";
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    background: var(--c-w);
-    font-size: 15px;
-    font-weight: 500;
-    padding: 0 15px;
 }
 
 .card .features li {
