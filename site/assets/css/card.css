@@ -3,24 +3,20 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
-    padding: 30px 0px;
+    padding: 15px 0px;
 }
 
 .simples {
     background: var(--c-g-500);
 }
 
-.azul {
-    background: #61cdff;
-}
-
-.verde {
+.grayy {
     background: var(--c-g-100);
 }
 
 .card {
-    max-width: 233px;
-    max-height: 420px;
+    max-width: 253px;
+    max-height: 425px;
     width: calc(33% - 20px);
     background: var(--c-w);
     padding: 30px;
@@ -44,21 +40,15 @@
     height: 120px;
     border-radius: 10px;
 }
+
 .price-section .price-area .inner-area img {
     width: 200px;
     height: 120px;
 }
 
 /* seção de escrita */
-.card .pachage-name {
-    width: 100%;
-    height: 2px;
-    margin: 5px 0;
-    position: relative;
-}
-
 .card .features li {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     list-style: none;
     display: flex;
     justify-content: space-between;
