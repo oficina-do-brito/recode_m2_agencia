@@ -131,14 +131,12 @@
                             <option value="2">Top Internacional</option>
                             <option value="3">Top nacional</option>
                         </select>
-                        <div
-                            class="container-fluid h-100 my-2 p-0 d-flex align-content-start justify-content-center gap-2 flex-wrap">
-                            <div class="container-fluid card-cliente">
+                        <div class="container-fluid h-100 my-2 p-0 d-flex align-content-start justify-content-center gap-2 flex-wrap" id="clientes">
+
+                            <div class="spinner-border visivel" role="status" id="loading">
+                                <span class="visually-hidden">Loading...</span>
                             </div>
-                            <div class="container-fluid card-cliente">
-                            </div>
-                            <div class="container-fluid card-cliente">
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -208,6 +206,7 @@
             </li>
         </ul>
     </footer>
+    <script defer src="./assets/js/findclients.js"></script>
 </body>
 
 </html>
